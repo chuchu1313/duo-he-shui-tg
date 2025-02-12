@@ -1,0 +1,19 @@
+{
+  "name": "duo-he-shui-tg",
+  "version": "1.0.0",
+  "description": "多喝水 drink more water Telegram Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-schedule": "^2.1.0",
+    "node-telegram-bot-api": "^0.60.0"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.7.4"
+  }
+}
