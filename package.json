@@ -12,5 +12,8 @@
   "dependencies": {
     "node-schedule": "^2.1.0",
     "node-telegram-bot-api": "^0.60.0"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.7.4"
   }
 }
