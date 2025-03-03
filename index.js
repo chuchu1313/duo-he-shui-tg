@@ -54,7 +54,7 @@ bot.onText(/^\/status/, function (msg) {
 bot.onText(/^\/start/, function (msg) {
     bot.sendMessage(msg.chat.id, "Job start");
     if (!job) {
-        job = schedule.scheduleJob('0 * * * *', () => {
+        job = schedule.scheduleJob('0 * * * 1-5', () => {
             drinkCheck();
         });
     }
